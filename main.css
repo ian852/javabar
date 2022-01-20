@@ -1,0 +1,133 @@
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times new roman', sans-serif;
+ 
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-shadow:5px 5px 10px white;
+}
+
+
+.nav{
+  display:flex;
+  justify-content: flex-end;
+  text-align: right;
+  padding: 10px 10px 10px 10px;
+  padding-right: 60px;
+  
+  text-shadow:5px 5px 10px rgb(179, 136, 136);
+}
+
+a{
+  color:rgb(173, 87, 30);
+  font-size: 50px;
+  text-decoration: none;
+  font-family:'Broadway', Times, serif, sans-serif;
+  margin-right: 40px;
+  text-shadow:5px 5px 10px rgb(33, 12, 128);
+}
+
+.nav a:hover{
+  color:rgb(65, 99, 116);
+
+}
+/* <!--mainlay--> */
+
+
+.container           
+{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(58, 22, 20);
+  background-image: url(images/barista.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 2;
+  text-shadow:15px 15px 15px rgb(70, 38, 38);
+}
+
+
+.txtbox
+{
+  position: relative;
+  z-index: 10;
+}
+
+.txtbox h1
+{
+  font-size: 5em;
+  font-weight: 800;
+  color: rgb(179, 104, 104);
+  line-height: 1em;
+  text-transform: uppercase;
+  text-shadow:0px 05px 10px rgb(161, 147, 147);
+}
+
+
+.txtbox h2
+{
+  font-size: 5em;
+  font-weight: 800;
+  color: rgb(170, 133, 133);
+  line-height: 1em;
+  text-transform: ;
+  text-shadow:5px 5px 10px rgb(14, 13, 13);
+}
+.txtbox h3
+{
+  font-size: 4em;
+  font-weight: 700;
+  color: rgb(104, 60, 60);
+  line-height: 4em;
+  text-transform: center;
+  text-shadow:5px 5px 10px rgb(20, 20, 20);
+}
+
+
+.txtbox p
+{
+  font-size: 1.8em;
+  color: rgb(146, 87, 87);
+  margin: 10px 0;
+  font-weight: 400;
+  max-width: 700px;
+  text-shadow:5px 5px 10px rgb(47, 40, 40);
+}
+
+.txtbox a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: rgb(231, 221, 221);
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: rgb(243, 237, 237);
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+
