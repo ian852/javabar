@@ -59,7 +59,7 @@ a{
   justify-content: space-between;
   align-items: center;
   background: rgb(58, 22, 20);
-  background-image: url(images/barista.jpg);
+  background-image: url(barista.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
